@@ -1,0 +1,119 @@
+/* XPM */
+static char *_fefc5e02f7e42b4c826498cd54258dczd906fW0zjyDYADl[] = {
+/* columns rows colors chars-per-pixel */
+"64 64 49 1 ",
+"  c #B7C8C6",
+". c #C6D7D5",
+"X c #D2D2D2",
+"o c #2E2E2E",  /* reemplazado */
+"O c #3B3B3B",  /* reemplazado */
+"+ c #484848",  /* reemplazado */
+"@ c #555555",  /* reemplazado */
+"# c #2E2E2E",  /* reemplazado */
+"$ c #3B3B3B",  /* reemplazado */
+"% c #484848",  /* reemplazado */
+"& c #555555",  /* reemplazado */
+"* c #2E2E2E",  /* reemplazado */
+"= c #3B3B3B",  /* reemplazado */
+"- c #484848",  /* reemplazado */
+"; c #555555",  /* reemplazado */
+": c #2E2E2E",  /* reemplazado */
+"> c #3B3B3B",  /* reemplazado */
+", c #484848",  /* reemplazado */
+"< c #555555",  /* reemplazado */
+"1 c #2E2E2E",  /* reemplazado */
+"2 c #3B3B3B",  /* reemplazado */
+"3 c #484848",  /* reemplazado */
+"4 c #555555",  /* reemplazado */
+"5 c #2E2E2E",  /* reemplazado */
+"6 c #3B3B3B",  /* reemplazado */
+"7 c #484848",  /* reemplazado */
+"8 c #555555",  /* reemplazado */
+"9 c #2E2E2E",  /* reemplazado */
+"0 c #3B3B3B",  /* reemplazado */
+"q c #484848",  /* reemplazado */
+"w c #555555",  /* reemplazado */
+"e c #2E2E2E",  /* reemplazado */
+"r c #3B3B3B",  /* reemplazado */
+"t c #484848",  /* reemplazado */
+"y c #555555",  /* reemplazado */
+"u c #2E2E2E",  /* reemplazado */
+"i c #3B3B3B",  /* reemplazado */
+"p c #484848",  /* reemplazado */
+"a c #555555",  /* reemplazado */
+"s c #2E2E2E",  /* reemplazado */
+"d c #3B3B3B",  /* reemplazado */
+"f c #484848",  /* reemplazado */
+"g c #555555",  /* reemplazado */
+"h c #2E2E2E",  /* reemplazado */
+"j c #3B3B3B",  /* reemplazado */
+"k c #484848",  /* reemplazado */
+"l c #C3C3C3",
+"z c #649CA5",
+"x c white",
+/* pixels */
+"  ......  ......  ......  ......  ......  ......  ......  ......",
+"  ......  ......  ......  ......  ......  ......  ......  ......",
+"XXooooooooooooooXXOOOOOOOOOOOO++XX@@@@@@@@@@@@##XX$$$$$$$$$$$$$$",
+"XXooooooooooooooXXOOOOOOOOOOOO++XX@@@@@@@@@@@@##XX$$$$$$$$$$$$$$",
+"XXoo%%%%%%%%%%ooXXOO&&&&&&&&&&++XX@@**********##XX$$==========$$",
+"XXoo%%%%%%%%%%ooXXOO&&&&&&&&&&++XX@@**********##XX$$==========$$",
+"XXoo%%%%%%%%%%ooXXOO&&&&&&&&&&++XX@@**********##XX$$==========$$",
+"XXoo%%%%%%%%%%ooXXOO&&&&&&&&&&++XX@@**********##XX$$==========$$",
+"XXoo%%%%%%%%%%ooXXOO&&&&&&&&&&++XX@@**********##XX$$==========$$",
+"XXoo%%%%%%%%%%ooXXOO&&&&&&&&&&++XX@@**********##XX$$==========$$",
+"XXoo%%%%%%%%%%ooXXOO&&&&&&&&&&++XX@@**********##XX$$==========$$",
+"XXoo%%%%%%%%%%ooXXOO&&&&&&&&&&++XX@@**********##XX$$==========$$",
+"XXoo%%%%%%%%%%ooXXOO&&&&&&&&&&++XX@@**********##XX$$==========$$",
+"XXoo%%%%%%%%%%ooXXOO&&&&&&&&&&++XX@@**********##XX$$==========$$",
+"XXooooooooooooooXX++++++++++++++XX##############XX$$$$$$$$$$$$$$",
+"XXooooooooooooooXX++++++++++++++XX##############XX$$$$$$$$$$$$$$",
+"  ......  ......  ......  ......  ......  ......  ......  ......",
+"  ......  ......  ......  ......  ......  ......  ......  ......",
+"XX------------;;XX::::::::::::>>XX,,<<<<<<<<<<<<XX11111111111111",
+"XX------------;;XX::::::::::::>>XX,,<<<<<<<<<<<<XX11111111111111",
+"XX--2222222222;;XX::3333333333>>XX,,4444444444<<XX11555555555566",
+"XX--2222222222;;XX::3333333333>>XX,,4444444444<<XX11555555555566",
+"XX--2222222222;;XX::3333333333>>XX,,4444444444<<XX11555555555566",
+"XX--2222222222;;XX::3333333333>>XX,,4444444444<<XX11555555555566",
+"XX--2222222222;;XX::3333333333>>XX,,4444444444<<XX11555555555566",
+"XX--2222222222;;XX::3333333333>>XX,,4444444444<<XX11555555555566",
+"XX--2222222222;;XX::3333333333>>XX,,4444444444<<XX11555555555566",
+"XX--2222222222;;XX::3333333333>>XX,,4444444444<<XX11555555555566",
+"XX--2222222222;;XX::3333333333>>XX,,4444444444<<XX11555555555566",
+"XX--2222222222;;XX::3333333333>>XX,,4444444444<<XX11555555555566",
+"XX;;;;;;;;;;;;;;XX>>>>>>>>>>>>>>XX,,,,,,,,,,,,,,XX11666666666666",
+"XX;;;;;;;;;;;;;;XX>>>>>>>>>>>>>>XX,,,,,,,,,,,,,,XX11666666666666",
+"  ..............  ......  ..............  ......  ......  ......",
+"  ..............  ......  ..............  ......  ......  ......",
+"XX77777777777777XX88888888999900XXqqqqqqqqqqqqwwXX99eeeeeeeeeeee",
+"XX77777777777777XX88888888999900XXqqqqqqqqqqqqwwXX99eeeeeeeeeeee",
+"XX77rrrrrrrrrrttXX88yyyyyyyyyy00XXqquuuuuuuuuuwwXX99iiiiiiiiiiee",
+"XX77rrrrrrrrrrttXX88yyyyyyyyyy00XXqquuuuuuuuuuwwXX99iiiiiiiiiiee",
+"XX77rrrrrrrrrrttXX88yyyyyyyyyy00XXqquuuuuuuuuuwwXX99iiiiiiiiiiee",
+"XX77rrrrrrrrrrttXX88yyyyyyyyyy00XXqquuuuuuuuuuwwXX99iiiiiiiiiiee",
+"XX77rrrrrrrrrrttXX88yyyyyyyyyy00XXqquuuuuuuuuuwwXX99iiiiiiiiiiee",
+"XX77rrrrrrrrrrttXX88yyyyyyyyyy00XXqquuuuuuuuuuwwXX99iiiiiiiiiiee",
+"XX77rrrrrrrrrrttXX88yyyyyyyyyy00XXqquuuuuuuuuuwwXX99iiiiiiiiiiee",
+"XX77rrrrrrrrrrttXX88yyyyyyyyyy00XXqquuuuuuuuuuwwXX99iiiiiiiiiiee",
+"XX77rrrrrrrrrrttXX88yyyyyyyyyy00XXqquuuuuuuuuuwwXX99iiiiiiiiiiee",
+"XX77rrrrrrrrrrttXX88yyyyyyyyyy00XXqquuuuuuuuuuwwXX99iiiiiiiiiiee",
+"XX77ttttttttttttXX00000000000000XXwwwwwwwwwwwwwwXX99999999999999",
+"XX77ttttttttttttXX00000000000000XXwwwwwwwwwwwwwwXX99999999999999",
+"  ..............  ......  ......  ......  ......  ......  ......",
+"  ..............  ......  ......  ......  ......  ......  ......",
+"XXppppppppppppppXXaaaaaaaaaaaaaaXXssssssssssssddXXffffffffffffff",
+"XXppppppppppppppXXaaaaaaaaaaaaaaXXssssssssssssddXXffffffffffffff",
+"XXppggggggggggOOXXaahhhhhhhhhhaaXXssjjjjjjjjjjddXXff3333333333kk",
+"XXppggggggggggOOXXaahhhhhhhhhhaaXXssjjjjjjjjjjddXXff3333333333kk",
+"XXppggggggggggOOXXaahhhhhhhhhhaaXXssjjjjjjjjjjddXXff3333333333kk",
+"XXppggggggggggOOXXaahhhhhhhhhhaaXXssjjjjjjjjjjddXXff3333333333kk",
+"llppggggggggggzzllaahhhhhhhhhhaallssjjjjjjjjjjddllff3333333333kk",
+"llppggggggggggzzllaahhhhhhhhhhaallssjjjjjjjjjjddllff3333333333kk",
+"XXppggggggggggzzXXaahhhhhhhhhhaaXXssjjjjjjjjjjddXXff3333333333kk",
+"XXppggggggggggzzXXaahhhhhhhhhhaaXXssjjjjjjjjjjddXXff3333333333kk",
+"XXppggggggggggzzXXaahhhhhhhhhhaaXXssjjjjjjjjjjddXXff3333333333kk",
+"XXppggggggggggzzXXaahhhhhhhhhhaaXXssjjjjjjjjjjddXXff3333333333kk",
+"XXppzzzzzzzzzzzzXXaaaaaaaaaaaaaaXXddddddddddddddXXffkkkkkkkkkkkk",
+"XXppzzzzzzzzzzzzXXaaaaaaaaaaaaaaXXddddddddddddddXXffkkkkkkkkkkkk"
+};
