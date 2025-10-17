@@ -1,5 +1,9 @@
-# So_long-42
-🕹️ A small 2D adventure game made in C using MiniLibX. Collect items, avoid walls, and reach the exit through a custom .ber map parser.
+# 🕹️ So_long-42
+
+A small 2D adventure game made in C using **MiniLibX**.  
+Collect items, avoid walls, and reach the exit through a custom `.ber` map parser.
+
+---
 
 # 🎮 So_long
 
@@ -30,56 +34,69 @@ El jugador debe moverse por un mapa, recoger todos los objetos y alcanzar la sal
 
 ```bash
 make
+```
+
 Esto genera el ejecutable:
 
-bash
-Copiar código
-so_long
+```bash
+./so_long
+```
+
 Versión bonus (contadores y animaciones):
 
-bash
-Copiar código
+```bash
 make bonus
-🧹 Limpieza
-bash
-Copiar código
+```
+
+### 🧹 Limpieza
+
+```bash
 make clean   # elimina objetos
 make fclean  # elimina todo
 make re      # recompila desde cero
-🗺️ Formato del mapa
-El mapa debe estar guardado en un archivo con extensión .ber
+```
+
+---
+
+## 🗺️ Formato del mapa
+
+El mapa debe estar guardado en un archivo con extensión `.ber`  
 y cumplir las siguientes reglas:
 
-Cerrado por muros (1).
+- Cerrado por muros (`1`).
+- Debe contener al menos:
+  - 1 salida (`E`)
+  - 1 jugador (`P`)
+  - 1 coleccionable (`C`)
+- Compuesto solo por los caracteres válidos:  
+  `0` (suelo), `1` (muro), `C` (coleccionable), `E` (salida), `P` (jugador).
 
-Debe contener al menos:
+### 🧩 Ejemplo de mapa
 
-1 salida (E)
-
-1 jugador (P)
-
-1 coleccionable (C)
-
-Compuesto solo por los caracteres válidos:
-0 (suelo), 1 (muro), C (coleccionable), E (salida), P (jugador).
-
-Ejemplo de mapa
-Copiar código
+```
 1111111
 1P0C0E1
 1000001
 1111111
-🎮 Controles del juego
-Tecla	Acción
-W	Mover hacia arriba
-A	Mover hacia la izquierda
-S	Mover hacia abajo
-D	Mover hacia la derecha
-ESC	Salir del juego
+```
 
-🧩 Estructura del proyecto
-css
-Copiar código
+---
+
+## 🎮 Controles del juego
+
+| Tecla | Acción |
+|:------|:--------|
+| `W`   | Mover hacia arriba |
+| `A`   | Mover hacia la izquierda |
+| `S`   | Mover hacia abajo |
+| `D`   | Mover hacia la derecha |
+| `ESC` | Salir del juego |
+
+---
+
+## 🧩 Estructura del proyecto
+
+```
 so_long/
 ├── Makefile
 ├── so_long.c              → función main, inicialización del juego
@@ -98,9 +115,13 @@ so_long/
 │   └── itoa.c             → conversión para mostrar pasos
 ├── GNL/                   → implementación de get_next_line
 └── bonus/                 → versión bonus con animaciones y contador
-🧠 Flujo del programa
-mermaid
-Copiar código
+```
+
+---
+
+## 🧠 Flujo del programa
+
+```mermaid
 flowchart TD
     A([Inicio]) --> B[Leer archivo .ber con get_next_line]
     B --> C[Validar mapa con parsing/checkmap.c]
@@ -118,3 +139,41 @@ flowchart TD
     L -- Sí --> M[Mostrar mensaje de victoria / salir]
     L -- No --> F
     M --> N([Fin])
+```
+
+---
+
+## 📸 Capturas (añade tus imágenes)
+
+Coloca tus imágenes en una carpeta `assets/` y añade referencias aquí:
+
+```markdown
+![Juego en ejecución](assets/solong_play.png)
+![Mapa ejemplo](assets/map_example.png)
+```
+
+---
+
+## 🧾 Recursos usados
+
+- [MiniLibX](https://harm-smits.github.io/42docs/libs/minilibx)
+- [X11 / mlx.h documentación no oficial](https://qst0.github.io/ft_libgfx/man_mlx/)
+- Funciones propias de **Libft** y **GNL** integradas.
+
+---
+
+## 🧱 Normas 42
+
+- Sin **leaks** de memoria (`valgrind` recomendado).
+- Cumple la **Norminette**.
+- Solo funciones autorizadas.
+- Mapa y errores validados correctamente.
+- Uso correcto de `make` y de la estructura del bonus.
+
+---
+
+## 👨‍💻 Autor
+
+**Tu Nombre**  
+42 Campus  
+[https://github.com/tuusuario](https://github.com/tuusuario)
