@@ -119,41 +119,6 @@ so_long/
 
 ---
 
-## 🧠 Flujo del programa
-
-```mermaid
-flowchart TD
-    A([Inicio]) --> B[Leer archivo .ber con get_next_line]
-    B --> C[Validar mapa con parsing/checkmap.c]
-    C --> D{¿Mapa válido?}
-    D -- No --> Z[Error: mapa inválido / salida]
-    D -- Sí --> E[Cargar texturas con MiniLibX]
-    E --> F[Renderizar mapa inicial]
-    F --> G[Esperar entrada del jugador (WASD)]
-    G --> H[Actualizar posición del jugador]
-    H --> I{¿Jugador recogió C?}
-    I -- Sí --> J[Decrementar contador de coleccionables]
-    I -- No --> K
-    J --> K[Redibujar mapa y contador de pasos]
-    K --> L{¿Jugador llega a E y no quedan C?}
-    L -- Sí --> M[Mostrar mensaje de victoria / salir]
-    L -- No --> F
-    M --> N([Fin])
-```
-
----
-
-## 📸 Capturas (añade tus imágenes)
-
-Coloca tus imágenes en una carpeta `assets/` y añade referencias aquí:
-
-```markdown
-![Juego en ejecución](assets/solong_play.png)
-![Mapa ejemplo](assets/map_example.png)
-```
-
----
-
 ## 🧾 Recursos usados
 
 - [MiniLibX](https://harm-smits.github.io/42docs/libs/minilibx)
@@ -172,8 +137,4 @@ Coloca tus imágenes en una carpeta `assets/` y añade referencias aquí:
 
 ---
 
-## 👨‍💻 Autor
 
-**Tu Nombre**  
-42 Campus  
-[https://github.com/tuusuario](https://github.com/tuusuario)
